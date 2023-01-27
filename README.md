@@ -4,7 +4,7 @@ A simple node.js program running in electron that allows you to randomize your T
 
 # Usage:
 
-Download **tft-randomizer-1.0.0 Setup.exe** from releases. Only available for Windows at this time.
+Download **tft-randomizer-1.0.0 Setup.exe** from releases, located directly to the right of this page. Only available for Windows at this time.
 
 Run the executable which will install tft-randomizer to **C:\Users\\[User]\AppData\Local\tft_randomizer\tft_randomizer.exe**
 
