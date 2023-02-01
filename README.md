@@ -29,6 +29,8 @@ Clicking the save buttons, those in the left column, will take the cosmetics you
 # Status Indicator
 The text on the bottom of the window under the heading "Status Indicator" will provide information about what the program is currently doing/just finished doing. For example, the following image shows the result of successfully randomizing my Little Legend and Boom. It also counts how many times you randomize each session, because why not?
 
+The status indicator will also alert you if there's an available update for TFT_Randomizer!
+
 ![image](https://user-images.githubusercontent.com/11037841/215923299-4b33756a-9406-4e48-afea-236c8bcdacc0.png)
 
 # How to randomize only favorites:
