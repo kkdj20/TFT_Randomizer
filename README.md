@@ -15,14 +15,14 @@ Run tft_randomizer.exe to open up the program as seen below:
 ![image](https://user-images.githubusercontent.com/11037841/215920627-16cf3438-b049-4b35-bcbf-d031c555eab1.png)
 
 # How to randomize cosmetics:
-Use the checkboxes under the "Cosmetics to randomize" header to select which cosmetics you'd like to randomize, then click "Randomize Selection" for the random cosmetics to be automatically equipped in your LoL client. Clicking "Randomize Selection" with the configuration seen below will equip a random Little Legend and a random Arena from those that you own, while your boom will remain unchanged.
+Use the checkboxes under the "Cosmetics to randomize" header to select which cosmetics you'd like to randomize, then click "Randomize Selection" for the random cosmetics to be automatically equipped in your LoL client. Clicking "Randomize Selection" with the configuration seen below will equip a random Little Legend and a random Arena from those that you own, while your boom will remain unchanged. 
 
 ![image](https://user-images.githubusercontent.com/11037841/215922214-9f5818b7-5854-419c-8970-815c6eacf384.png)
 
 # How to manage favorites:
 On the right side of the window, circled in red below, you'll see the buttons for managing your favorite cosmetics. 
 
-Clicking the save buttons, those in the left column, will take the cosmetics you currently have equipped in the LoL client and save them into a favorite's list. For example, if you equip Chibi Dragonmancer Yasuo then click "Save current Little Legend to Favorites", Chibi Dragonmancer Yasuo will now be part of your Little Legend favorite's list. To remove a cosmetic from your favorite list, simply equip it in-client then click the respective remove button. For example, if you now clicked "Remove current Little Legend from Favorites", Chibi Dragonmancer Yasuo will no longer be on the favorite's list. 
+Clicking the save buttons, those in the left column, will take the cosmetics you currently have equipped in the LoL client and save them into a favorite's list. For example, if you equip Chibi Dragonmancer Yasuo then click "Save current Little Legend to Favorites", Chibi Dragonmancer Yasuo will now be part of your Little Legend favorite's list. To remove a cosmetic from your favorite list, simply equip it in-client then click the respective remove button. For example, if you now clicked "Remove current Little Legend from Favorites", Chibi Dragonmancer Yasuo will no longer be on the favorite's list. After randomizing, give it a few seconds for the changes to be reflected in your client before you click the save buttons.
 
 ![image](https://user-images.githubusercontent.com/11037841/215921194-dfe6bf55-50f1-47b8-aeab-64a42b25fb1e.png)
 
