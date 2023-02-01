@@ -43,17 +43,106 @@
     </header>
     
     <div id="main">
-      <h1>Click below to randomize your cosmetics!</h1>
-
-      <div class="button" id="llButton">Randomize Little Legend!</div>
-      <div class="button" id="arenaButton">Randomize Arena!</div>
-      <div class="button" id="boomButton">Randomize Boom!</div>
-      <div class="button" id="allButton">Randomize Everything!</div>
+      <div id = "leftT">
+        <h3>Randomize your cosmetics</h3>
+      </div>
+      <div id = "rightT">
+        <h3>Manage your favorites lists</h3>
+      </div>
+      <table>
+        <tr>
+          <th>Cosmetics to Randomize</th>
+          <th>Only Use Favorites?</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="llBox" value="Checkbox">
+            <label for ="llBox"> Little Legend</label>
+          </td>
+          <td>
+            <input type="checkbox" id="llFavoriteBox" value="Checkbox">
+            <label for ="llFavoriteBox"></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="arenaBox" value="Checkbox">
+            <label for ="arenaBox"> Arena&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          </td>
+          <td>
+            <input type="checkbox" id="arenaFavoriteBox" value="Checkbox">
+            <label for ="arenaFavoriteBox"></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="boomBox" value="Checkbox">
+            <label for ="boomBox"> Boom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          </td>
+          <td>
+            <input type="checkbox" id="boomFavoriteBox" value="Checkbox">
+            <label for ="boomFavoriteBox"></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="comboBox" value="Checkbox">
+            <label for ="comboBox"> Full Loadout&nbsp;</label>
+          </td>
+          <td>
+            <input type="checkbox" id="comboFavoriteBox" value="Checkbox">
+            <label for ="comboFavoriteBox"></label>
+          </td>
+        </tr>
+          <td colspan = "2">
+            <div id = "allRandom">
+              <div class="button" id="allButton">Randomize Selection</div>
+            </div>
+          </td>
+      </table>
+      <table>
+        <tr>
+          <th>Add Favorites</th>
+          <th>Remove Favorites</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="button" id="saveLLButton">Save current Little Legend to favorites </div>
+          </td>
+          <td>
+            <div class="button" id="deleteLLButton">Remove current Little Legend from favorites</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="button" id="saveArenaButton">Save current Arena to favorites </div>
+          </td>
+          <td>
+            <div class="button" id="deleteArenaButton">Remove current Arena from favorites</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="button" id="saveBoomButton">Save current Boom to favorites </div>
+          </td>
+          <td>
+            <div class="button" id="deleteBoomButton">Remove current Boom from favorites</div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="button" id="saveComboButton">Save current Loadout to favorites </div>
+          </td>
+          <td>
+            <div class="button" id="deleteComboButton">Remove current Loadout from favorites</div>
+          </td>
+        </tr>
+      </table>
       <p></p>
+      <h3> Status Indicator:</h3>
       <p></p>
-      <div id="llStatus">Little Legend Status: Not currently randomized</div>
-      <div id="arenaStatus">Arena Status: Not currently randomized</div>
-      <div id="boomStatus">Boom Status: Not currently randomized</div>
+      <div id="status">Do stuff up above then click randomize. Info will appear here!</div>
+      
     </div>
   </body>
   <script src="./renderer.js"></script>

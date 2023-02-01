@@ -22,6 +22,18 @@ body {
 h1 {margin: 0 0 10px 0; font-weight: 600; line-height: 1.2;}
 p {margin-top: 10px; color: rgba(255,255,255,0.4);}
 
+table {
+  float: left;
+  width:50%;
+  border:1px solid black;
+}
+
+tr, td, th {
+  width:50%;
+  text-align: center;
+  border:1px solid black;
+}
+
 #titlebar 
 {
     color: #FFF;
@@ -70,6 +82,19 @@ p {margin-top: 10px; color: rgba(255,255,255,0.4);}
     height: 100%;
 }
   
+#allRandom .button
+{
+  position: absolute;
+  text-align: left;
+  top: 25%;
+  right: 0;
+  padding: 0.5em 1em;
+  border: 0;
+  border-radius: 0.5em;
+  background-color: gray;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
 #main
 {
     position: relative;
@@ -99,9 +124,24 @@ p {margin-top: 10px; color: rgba(255,255,255,0.4);}
     color: white;
 }
 
+#leftT
+{
+  float:left;
+  text-align: left;
+  width:50%;
+}
+
+#rightT
+{
+  float:right;
+  width:50%;
+  text-align: left;
+}
 
 #main .button
 {
+    display: block;
+    margin: auto;
     position: relative;
     padding: 0.5em 1em;
     border: 0;
@@ -168,6 +208,11 @@ p {margin-top: 10px; color: rgba(255,255,255,0.4);}
 #close-button 
 {
     grid-column: 3;
+}
+
+#status
+{
+  font-size:x-large;
 }
 
 #main 
